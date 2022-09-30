@@ -2,6 +2,7 @@
 import Header from './components/Header.vue';
 import SectionOne from './components/SectionOne.vue';
 import SectionTwo from './components/sectionTwo.vue';
+import Clients from './components/Clients.vue';
 
 </script>
 
@@ -9,6 +10,7 @@ import SectionTwo from './components/sectionTwo.vue';
   <Header/>
   <SectionOne/>
   <SectionTwo/>
+  <Clients/>
 </template>
 
 <style scoped>
