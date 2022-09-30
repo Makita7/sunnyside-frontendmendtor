@@ -51,7 +51,7 @@
 
 <style>
     .client{
-        min-height: 25rem;
+        min-height: 28rem;
         padding: 5rem;
     }
     .client h4 {
