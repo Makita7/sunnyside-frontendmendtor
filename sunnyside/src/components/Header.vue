@@ -16,6 +16,7 @@
         />
         <div class="over">
         <h1 class="over">We are creatives</h1>
+        <img class="arrow" alt="arrow" src="../assets/icon-arrow-down.svg" />
         </div>
     </header>
 </template>
@@ -32,7 +33,7 @@
         text-align: center;
         color: white;
         z-index: +2;
-        top: 26%;
+        top: 20%;
         width: 100%;
         font-size: 5rem !important;
         margin-left: auto;
@@ -40,5 +41,9 @@
     }
     .over h1{
         width: 100%;
+    }
+    .arrow {
+        max-width: 2rem;
+        padding-top: 14rem;
     }
 </style>
