@@ -5,7 +5,7 @@ font-family: 'Fraunces', serif; */
 :root{
   /* Primary */
   --SoftRed: hsla(7, 99%, 70%, 0.25);
-  --Yellow: hsl(51, 100%, 49%, 0.25);
+  --Yellow: hsl(51, 100%, 49%, 0.3);
   --DarkDesaturatedCyan: hsl(167, 40%, 24%);
   --DarkBlue: hsl(198, 62%, 26%);
   --DarkModerateCyan: hsl(168, 34%, 41%);
