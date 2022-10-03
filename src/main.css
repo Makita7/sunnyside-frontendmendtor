@@ -24,6 +24,7 @@ font-family: 'Fraunces', serif; */
 
 .flex{
   display: flex;
+  flex-wrap: wrap;
 }
 
 p{
@@ -50,4 +51,34 @@ h3{
 
 .evenly{
   justify-content: space-evenly;
+}
+
+.cellShow{
+  display: none;
+}
+.deskShow{
+  display: contents;
+}
+
+@media only screen and (max-width: 400px) {
+  .cellShow{
+    display: block !important;
+  }
+  .deskShow{
+    display: none;
+  }
+  .over {
+    position: absolute;
+    text-align: center;
+    color: white;
+    z-index: +2;
+    top: 13%;
+    width: 100%;
+    font-size: 3.5rem !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .arrow {
+    max-width: 2.5rem;
+  }
 }

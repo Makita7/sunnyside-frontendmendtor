@@ -2,6 +2,9 @@
 <template>
     <section class="sectOne">
         <div class="flex">
+            <div class="container cellShow">
+                <img alt='transform' src='../assets/mobile/image-transform.jpg' />
+            </div>
             <div class="container text">
                 <h3>Transform your brand</h3>
                 <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
@@ -10,7 +13,7 @@
                     <div class="yellow"></div>
                 </a>
             </div>
-            <div class="container">
+            <div class="container deskShow">
                 <img alt='transform' src='../assets/desktop/image-transform.jpg' />
             </div>
         </div>
@@ -76,5 +79,27 @@
         border-radius: 6px;
         margin-top: -0.6rem;
         margin-left: -0.3rem;
+    }
+    @media only screen and (max-width: 400px) {
+        .sectOne .text {
+            padding: 13% 8%;
+        }
+        .container{
+            width: 100%;
+        }
+        .sectOne{
+            text-align: center;
+        }
+        .sectOne h3{
+            font-size: 2rem;
+        }
+        .sectOne p{
+            font-size: 1.1rem;
+        }
+        .yellow, .pink {
+            width: 40%;
+            margin-right: auto;
+            margin-left: auto;
+        }
     }
 </style>

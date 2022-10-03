@@ -1,17 +1,20 @@
 <script>
-
+    const link = 'https://ar.pinterest.com/SophiaMakita/';
 </script>
 
 <template>
     <div class="flex navbar">
         <img class="logoH" src=".././assets/logo.svg" alt='logo'/>
-        <div class="links">
+        <div class="links deskShow">
             <ul class="flex">
-                <li class="links padFix">About</li>
+                <li class="links padFix"><a :href="link">About</a></li>
                 <li class="links padFix">Services</li>
                 <li class="links padFix">Projects</li>
                 <li class="links contact">Contact</li>
             </ul>
+        </div>
+        <div class="cellShow">
+            hi
         </div>
     </div>
 </template>
@@ -45,5 +48,11 @@
     }
     .padFix{
         padding-top: 0.5rem;
+    }
+    @media only screen and (max-width: 400px) {
+        img.logoH {
+        width: 7rem;
+        height: 1.8rem;
+        }
     }
 </style>

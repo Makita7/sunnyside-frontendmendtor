@@ -11,11 +11,17 @@
     <header>
         <Navbar/>
         <img
+        class="deskShow"
         alt="banner"
         src="../assets/desktop/imageHeader.jpg"
         />
+        <img
+        class="cellShow"
+        alt="banner"
+        src="../assets/mobile/image-header.jpg"
+        />
         <div class="over">
-        <h1 class="over">We are creatives</h1>
+        <h1 class="over">We are <br/> creatives</h1>
         <img class="arrow" alt="arrow" src="../assets/icon-arrow-down.svg" />
         </div>
     </header>
