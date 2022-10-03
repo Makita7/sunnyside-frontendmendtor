@@ -1,5 +1,4 @@
 <script>
-    const link = 'https://ar.pinterest.com/SophiaMakita/';
 </script>
 
 <template>
@@ -7,14 +6,14 @@
         <img class="logoH" src=".././assets/logo.svg" alt='logo'/>
         <div class="links deskShow">
             <ul class="flex">
-                <li class="links padFix"><a :href="link">About</a></li>
+                <li class="links padFix">About</li>
                 <li class="links padFix">Services</li>
                 <li class="links padFix">Projects</li>
                 <li class="links contact">Contact</li>
             </ul>
         </div>
         <div class="cellShow">
-            hi
+            <img class="hMenu" alt="burger menu" src="../assets/icon-hamburger.svg" />
         </div>
     </div>
 </template>
@@ -49,10 +48,13 @@
     .padFix{
         padding-top: 0.5rem;
     }
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 767px) {
         img.logoH {
         width: 7rem;
         height: 1.8rem;
+        }
+        .hMenu{
+            margin-left: 810%;
         }
     }
 </style>

@@ -50,6 +50,19 @@
     }
     .arrow {
         max-width: 2rem;
+        padding-top: 18rem;
+    }
+    @media only screen and (max-width: 1023px) {
+        .over{
+            top: 14%;
+        }
+        .arrow {
+            padding-top: 16rem;
+        }
+    }
+    @media only screen and (max-width: 767px) {
+        .arrow {
         padding-top: 14rem;
+        }
     }
 </style>

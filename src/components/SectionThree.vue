@@ -13,4 +13,15 @@
         width: 25%;
         height: auto;
     }
+    @media only screen and (max-width: 767px) {
+        .dividedFour{
+            width: 50%;
+        }
+        footer li {
+            padding: 0 1rem;
+        }
+        footer ul{
+            margin-left: 5%;
+        }
+    }
 </style>

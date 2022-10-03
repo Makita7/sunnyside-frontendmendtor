@@ -80,7 +80,20 @@
         margin-top: -0.6rem;
         margin-left: -0.3rem;
     }
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 1023px) {
+        .container {
+            overflow: hidden;
+        }
+        .sectOne img {
+            width: auto;
+            height: 100%;
+            margin-left: -10rem;
+        }
+        .yellow, .pink{
+            width: 45%;
+        }
+    }
+    @media only screen and (max-width: 767px) {
         .sectOne .text {
             padding: 13% 8%;
         }
