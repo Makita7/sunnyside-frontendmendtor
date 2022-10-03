@@ -114,5 +114,10 @@
             margin-right: auto;
             margin-left: auto;
         }
+        .sectOne img {
+            width: 100%;
+            height: auto;
+            margin-left: 0;
+        }
     }
 </style>

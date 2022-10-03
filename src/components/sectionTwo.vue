@@ -90,5 +90,10 @@
         .overTitle {
             margin-top: -13rem;
         }
+        .sectTwo img {
+            width: 100%;
+            margin-left: 0;
+            height: auto;
+        }
     }
 </style>

@@ -75,7 +75,7 @@ h3{
     position: absolute;
     text-align: center;
     color: white;
-    z-index: +2;
+    z-index: +1;
     top: 13%;
     width: 100%;
     font-size: 3.5rem !important;
@@ -84,5 +84,6 @@ h3{
   }
   .arrow {
     max-width: 2.5rem;
+    z-index: +1;
   }
 }

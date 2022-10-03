@@ -38,7 +38,7 @@
         position: absolute;
         text-align: center;
         color: white;
-        z-index: +2;
+        z-index: +1;
         top: 20%;
         width: 100%;
         font-size: 5rem !important;

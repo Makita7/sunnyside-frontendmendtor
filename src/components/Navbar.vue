@@ -1,4 +1,20 @@
 <script>
+    export default{
+        name: 'bugernav',
+        props: {
+            active: {
+                type: Boolean,
+                required: true,
+                default: false,
+            }
+        },
+        // methods: {
+        //     toggle() {
+        //         this.active = !this.active
+        //         this.$emit( active, 'toggle-menu' )
+        //     }
+        // }
+    }
 </script>
 
 <template>
@@ -12,8 +28,16 @@
                 <li class="links contact">Contact</li>
             </ul>
         </div>
-        <div class="cellShow">
+        <div class="cellShow" @click.prevent="active = !active">
             <img class="hMenu" alt="burger menu" src="../assets/icon-hamburger.svg" />
+        </div>
+        <div class="cellShow burgerNavOpen" v-if="active">
+            <ul class="">
+                <li class="links padFix">About</li>
+                <li class="links padFix">Services</li>
+                <li class="links padFix">Projects</li>
+                <li class="links padFix">Contact</li>
+            </ul>
         </div>
     </div>
 </template>
@@ -55,6 +79,29 @@
         }
         .hMenu{
             margin-left: 810%;
+        }
+        .burgerNavOpen {
+            background-color: white;
+            height: 20rem;
+            width: 19.5rem;
+            padding: 1rem;
+            margin-left: -9rem;
+            z-index: +10;
+            position: sticky;
+            margin-top: 3rem;
+        }
+        .burgerNavOpen li{
+            color: black;
+            z-index: +15;
+            padding-top: 2.5rem;
+            text-align: center;
+            font-family: 'Barlow', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--DarkGrayishBlue);
+        }
+        .burgerNavOpen ul{
+            padding-left: 0% !important;
         }
     }
 </style>
