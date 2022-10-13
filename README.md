@@ -2,7 +2,7 @@
 
 This is a solution to a challange on FrontendMentor that I wanted to do in order to start practice responsive css and to get started with Vue.
 
-https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef/hub/sunnyside-agency-landing-page-gcoXZb4P9o
+[Challange Link](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef/hub/sunnyside-agency-landing-page-gcoXZb4P9o)
 
 ### The challenge
 
@@ -15,8 +15,8 @@ Users should be able to:
 ![](./src//assets//desktop-preview.jpg)
 
 ## Links
-- Solution URL: [SunnySide](https://your-solution-url.com)
-- Site: [SunnySide](https://your-live-site-url.com)
+- Solution URL: [SunnySide](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-using-vue-js-36H0SSWMWL)
+- Site: [SunnySide](https://makita7.github.io/sunnyside-frontendmendtor/)
 
 ## Built With
 - [Vue](https://vuejs.org/) - JS library
