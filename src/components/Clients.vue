@@ -49,7 +49,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
     .client{
         min-height: 28rem;
         padding: 5rem;

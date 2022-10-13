@@ -23,7 +23,7 @@
     </section>
 </template>
 
-<style>
+<style scoped>
     .sectTwo{
         margin-top: -1rem;
         color: var(--DarkDesaturatedCyan);

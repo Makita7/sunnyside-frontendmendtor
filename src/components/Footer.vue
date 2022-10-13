@@ -55,7 +55,7 @@ import IconT from '../assets/icon-twitter.svg';
     </footer>
 </template>
 
-<style>
+<style scoped>
     footer{
         min-height: 22rem;
         background-color: #90d4c5;
@@ -87,6 +87,13 @@ import IconT from '../assets/icon-twitter.svg';
     footer .logo{
         fill: var(--DarkModerateCyan);
     }
+
+    @media only screen and  (min-width:1900px){
+        footer ul {
+            margin-left: 39%;
+        }
+    }
+
     @media only screen and (max-width: 1023px) {
         footer ul {
             margin-left: 24%;

@@ -42,7 +42,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
     .navbar{
         position: absolute;
         z-index: +2;

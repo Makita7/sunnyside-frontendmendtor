@@ -8,7 +8,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
     .dividedFour{
         width: 25%;
         height: auto;
