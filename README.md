@@ -23,6 +23,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- FontAwesome
 
 ### How to Use Project
 - git clone https://github.com/Makita7/sunnyside-frontendmendtor.git
