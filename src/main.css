@@ -21,7 +21,9 @@ font-family: 'Fraunces', serif; */
 *{
   margin: 0px;
 }
-
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
 .flex{
   display: flex;
   flex-wrap: wrap;

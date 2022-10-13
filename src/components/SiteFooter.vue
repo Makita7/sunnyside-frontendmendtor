@@ -5,6 +5,7 @@ import IconI from '../assets/icon-instagram.svg';
 import IconP from '../assets/icon-pinterest.svg';
 import IconT from '../assets/icon-twitter.svg';
 
+
     export default{
         data(){
             return{
@@ -12,25 +13,25 @@ import IconT from '../assets/icon-twitter.svg';
                     {
                         id: 1,
                         link: 'https://www.facebook.com',
-                        icon: IconF,
+                        icon: "fa-brands fa-square-facebook",
                         alt: 'facebook',
                     },
                     {
                         id: 2,
                         link: 'https://www.instagram.com',
-                        icon: IconI,
+                        icon: 'fa-brands fa-instagram',
                         alt: 'instagram',
                     },
                     {
                         id: 3,
                         link: 'https://www.twitter.com',
-                        icon: IconT,
+                        icon: 'fa-brands fa-twitter',
                         alt: 'twitter',
                     },
                     {
                         id: 4,
                         link: 'https://www.pinterest.com',
-                        icon: IconP,
+                        icon: 'fa-brands fa-pinterest',
                         alt: 'pinterest',
                     },
                 ])
@@ -49,7 +50,7 @@ import IconT from '../assets/icon-twitter.svg';
         </ul>
         <div class="inlineFlex" v-for="items in social">
             <a :href="items.link" :id="items.id">
-                <img :alt="items.alt" :src="items.icon" />
+                <font-awesome-icon :icon="items.icon" size="lg" />
             </a>
         </div>
     </footer>
@@ -73,6 +74,13 @@ import IconT from '../assets/icon-twitter.svg';
         font-family: 'Barlow', sans-serif;
         font-weight: 600;
     }
+    .svg-inline--fa.fa-lg {
+        color: var(--DarkModerateCyan);
+    }
+    .svg-inline--fa.fa-lg:hover{
+        color: white;
+        transition: 0.5s;
+    }
     footer ul {
         margin-left: 36%;
         margin-right: auto;
@@ -86,6 +94,15 @@ import IconT from '../assets/icon-twitter.svg';
     }
     footer .logo{
         fill: var(--DarkModerateCyan);
+    }
+
+    a:hover{
+        color: white;
+    }
+
+    footer li:hover{
+        color: white;
+        transition: 0.5s;
     }
 
     @media only screen and  (min-width:1900px){

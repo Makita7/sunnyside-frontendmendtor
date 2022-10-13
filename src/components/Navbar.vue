@@ -8,12 +8,6 @@
                 default: false,
             }
         },
-        // methods: {
-        //     toggle() {
-        //         this.active = !this.active
-        //         this.$emit( active, 'toggle-menu' )
-        //     }
-        // }
     }
 </script>
 
@@ -68,6 +62,12 @@
         padding: 0.8rem 1.5rem;
         border-radius: 10pc;
         text-transform: uppercase;
+    }
+
+    .contact:hover{
+        background-color: rgba(255, 255, 255, 0.4);
+        color: white;
+        transition: 0.3s;
     }
     .padFix{
         padding-top: 0.5rem;

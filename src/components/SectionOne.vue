@@ -65,20 +65,31 @@
         text-decoration: none;
     }
     .yellow {
-        background-color: var(--Yellow) !important;
+        background-color: hsl(51, 100%, 49%, 0.3) !important;
         height: 1rem;
         width: 25%;
         border-radius: 6px;
         margin-top: -0.6rem;
         margin-left: -0.3rem;
     }
+
     .pink {
-        background-color: var(--SoftRed) !important;
+        background-color: hsla(7, 99%, 70%, 0.25) !important;
         height: 1rem;
         width: 25%;
         border-radius: 6px;
         margin-top: -0.6rem;
         margin-left: -0.3rem;
+    }
+
+    .pink:hover{
+        background-color: hsla(7, 99%, 70%, 0.8) !important;
+        transition: 1s;
+    }
+
+    .yellow:hover{
+        background-color: hsl(51, 100%, 49%, 0.8) !important;
+        transition: 1s;
     }
 
     @media only screen and  (min-width:1900px){
