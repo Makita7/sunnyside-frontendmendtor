@@ -80,6 +80,13 @@
         margin-top: -0.6rem;
         margin-left: -0.3rem;
     }
+
+    @media only screen and  (min-width:1900px){
+        .yellow, .pink {
+            width: 20%;
+        }
+    }
+
     @media only screen and (max-width: 1023px) {
         .container {
             overflow: hidden;
