@@ -1,20 +1,20 @@
 <script setup>
-import Header from './components/Header.vue';
+import SiteHeader from './components/SiteHeader.vue';
 import SectionOne from './components/SectionOne.vue';
 import SectionTwo from './components/sectionTwo.vue';
 import Clients from './components/Clients.vue';
 import SectionThree from './components/SectionThree.vue';
-import Footer from './components/Footer.vue';
+import SiteFooter from './components/SiteFooter.vue';
 
 </script>
 
 <template>
-  <Header/>
+  <SiteHeader/>
   <SectionOne/>
   <SectionTwo/>
   <Clients/>
   <SectionThree/>
-  <Footer/>
+  <SiteFooter/>
 </template>
 
 <style scoped>
